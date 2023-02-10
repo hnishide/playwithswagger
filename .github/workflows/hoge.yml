@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: print log
-      run: echo "Hello!"
+      - uses: actions/checkout@v2
+
